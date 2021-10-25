@@ -6,30 +6,31 @@
 header{
 	display: flex;
     position: fixed;
-    background-color: rgb(25, 104, 128);
+    background-color: #193446;
     padding: 1%;
     width: 100%;
-    height: 4.3%;
+    height: 4%;
+	background: linear-gradient(315deg, rgba(0, 0, 0, 0.918) 0%, #193446 74%);
+}
+.leftpg{
+	align-items: center;
+	justify-content: start;
+    color: white;
+	position: relative;
+	display:block;
+    font-size: 1.2rem;
+    font-weight: 800;
 }
 .leftpg h3{
-	margin: 0px auto;
-	align-items: center;
-    color: white;
-    background-color: blueviolet;
-	position: relative;
-	display: flex;
-    font-size: 1.5rem;
-    font-weight: 800;
+	margin-left: 1rem;
 }
 .leftpg span{
     color: rgb(166, 234, 255);
 }
 .wrapper {
-    float: right;
-    padding: 1%;
-	margin-top: -2.8%;
-	margin-right: 2%;
-	
+    position: absolute;
+	right: 5rem;
+	top: 32%;
 }
 .wrapper .button {
 	display: block;
@@ -37,22 +38,19 @@ header{
 	height: 40px;
 	float: left;
 	margin: 0 5px;
-	background: #ffffff;
+	background: rgb(238, 238, 238);
 	border-radius: 50px;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.301);
 	overflow: hidden;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
 .wrapper .button:hover .icon{
-	color: #ffffff;
-	
+	color: #fff;
 }
 .wrapper .button:nth-child(1):hover .icon {
 	background: #161b22;
 }
-
-
 .wrapper .button .icon {
 	display:inline-block;
 	width: 40px;
@@ -63,23 +61,68 @@ header{
 	transition: all 0.3s ease-out;
 }
 .wrapper .button .icon ion-icon {
-    
-	font-size: 17.5px;
-	line-height: 40px;
+	height: 38px;
+	width: 25px;
 	transition: all 0.3s ease-out;
 }
-
 .wrapper .button span {
-    
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 650;
 	line-height: 40px;
 	margin-left: 10px; 
 }
+
 .wrapper .button:hover {
-	width: 135px;
+	width: 145px;
 }
 span a{
     text-decoration: none;
     color:black;
+}
+.menulateral{
+	position: fixed;
+	width: 14%;
+	height: 100%;
+	margin-top: 3.98%;
+	background: linear-gradient(180deg, #193446 0%, rgb(25, 104, 128) 20%);
+}
+.fotoperfil {
+	
+	width: 90%;
+	padding-top: 12%;
+	border-radius: 50%;
+	padding-bottom: 10%;
+}
+.coluna h6 span{
+	color: rgb(166, 234, 255);
+	display: block;
+	font-size: 90%;
+}
+.coluna h6{
+	color: rgb(211, 147, 30);
+	text-align: center;
+	font-size: 82%;
+	padding-bottom: 8%;
+	
+}
+/* .coluna{
+	background-color: chocolate;
+} */
+.coluna a{
+	/* background-color: cornflowerblue; */
+	color: white;
+	text-decoration: none;
+	display:block;
+	line-height: 5rem;
+	height: 5rem;
+	padding-left: 11%;
+	
+}
+.coluna a:hover{
+	background: rgb(0, 189, 247);
+	transition: all 0.6s ease-out;
+}
+.coluna ion-icon{
+	padding-right: 0.9rem;
+	
 }
