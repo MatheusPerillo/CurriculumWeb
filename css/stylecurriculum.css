@@ -85,9 +85,10 @@ span a{
 	height: 100%;
 	margin-top: 3.98%;
 	background: linear-gradient(180deg, #193446 0%, rgb(25, 104, 128) 20%);
+	transition: 0.5s;
+	transition-property: left;
 }
 .fotoperfil {
-	
 	width: 90%;
 	padding-top: 12%;
 	border-radius: 50%;
@@ -97,6 +98,7 @@ span a{
 	color: rgb(166, 234, 255);
 	display: block;
 	font-size: 90%;
+	
 }
 .coluna h6{
 	color: rgb(211, 147, 30);
@@ -119,10 +121,42 @@ span a{
 	
 }
 .coluna a:hover{
-	background: rgb(0, 189, 247);
+	background: rgb(51, 175, 212);
 	transition: all 0.6s ease-out;
 }
 .coluna ion-icon{
-	padding-right: 0.9rem;
-	
+	padding-right: 0.7rem;
+}
+label #sidebar-button{
+	position: fixed;
+	left: 15.7%;
+	margin: 0.25rem 0;
+	cursor: pointer;
+	color: white;
+	font-size: 1.55rem;
+	transition: 0.5s;
+}
+label #sidebar-button:hover{
+	color: rgb(0, 189, 247);
+}
+#check:checked ~ .menulateral .fotoperfil{
+	display: none;
+}
+#check:checked ~ .menulateral h6 span{
+	display: none;
+}
+#check:checked ~ .menulateral{
+	left: -10%;
+}
+#check:checked ~ .menulateral a span{
+	display: none;
+}
+#check:checked ~ .menulateral a{
+	font-size: 1.25rem;
+	margin: 0 70%;
+	width: 19%;
+}
+
+#check{
+	display: none;
 }
