@@ -4,62 +4,272 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
     <link href="css/stylecurriculum.css" rel="stylesheet" />
+    <link href="css/styleperfil.css" rel="stylesheet" />
+    <link href="css/styleformacao.css" rel="stylesheet" />
+    <link href="css/styleprofissional.css" rel="stylesheet" />
+    <link href="css/stylehabil.css" rel="stylesheet" />
+    <link href="css/stylecontato.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <title>Meu currículo</title>
 </head>
 
-<header>
-    <!--menu-->
-    <label for="check">
-        <ion-icon name="menu-outline" id="sidebar-button"></ion-icon>
-    </label>
-    
-    <div class="leftpg">
-        <h3>MATHEUS <span>PERILLO</span></h3>
-        
-    </div>
-    <div>
-        <div class="wrapper">
-            <div class="button">
-                <div class="icon">
-                    <ion-icon name="logo-github"></ion-icon>
+
+
+<body class="corpo">
+    <div class="pagecontainer">
+        <div class="engloba">
+            <header>
+                <!--menu-->
+                <!-- <label for="check">
+                <ion-icon name="menu-outline" id="sidebar-button"></ion-icon>
+            </label> -->
+
+                <div class="leftpg">
+                    <h3>MATHEUS <span>PERILLO</span></h3>
+
                 </div>
-                <span><a href="https://github.com/MatheusPerillo">Github</a></span>
+                <div class="botao">
+                    <a href="https://github.com/MatheusPerillo" target="_blank"><img src="imagens/icon-git.png" /></a>
+                </div>
+
+            </header>
+
+            <div class="side">
+                <!-- <input type="checkbox" id="check"> -->
+                <div class="menulateral">
+
+                    <div class="coluna">
+                        <div class="circular--landscape">
+                            <img src="imagens/fotoperilloimg.png" />
+                        </div>
+                        <a href="#perfil">
+                            <ion-icon name="person-circle-outline"></ion-icon><span>Perfil</span>
+                        </a>
+                        <a href="#formacao">
+                            <ion-icon name="library-outline"></ion-icon><span>Formação</span>
+                        </a>
+                        <a href="#exp">
+                            <ion-icon name="briefcase-outline"></ion-icon><span>Experiências</span>
+                        </a>
+                        <a href="#habil">
+                            <ion-icon name="code-slash-outline"></ion-icon><span>Habilidades</span>
+                        </a>
+                        <a href="#contato">
+                            <ion-icon name="call-outline"></ion-icon><span>Contato</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+        <div class="main">
 
-<body>
-    <input type="checkbox" id="check">
-    
-    <!--menu lateral-->
-    <div class="menulateral">
-        <div class="coluna">
-            <center>
-                <img src="imagens/Novo Projeto.png" class="fotoperfil" alt="">
-                <h6>estudante de <span>ENGENHARIA DE SOFTWARE</span></h6>
-            </center>
-            <a href="#">
-                <ion-icon name="person-circle-outline"></ion-icon><span>Perfil</span>
-            </a>
-            <a href="#">
-                <ion-icon name="library-outline"></ion-icon><span>Formação</span>
-            </a>
-            <a href="#">
-                <ion-icon name="briefcase-outline"></ion-icon><span>Experiências</span>
-            </a>
-            <a href="#">
-                <ion-icon name="code-slash-outline"></ion-icon><span>Habilidades</span>
-            </a>
-            <a href="#">
-                <ion-icon name="call-outline"></ion-icon><span>Contato</span>
-            </a>
+            <!--menu lateral-->
+            <section class="firstcontainer">
+                <section class="aboutperfil">
+                    <h1 class="titleperfil" id="perfil">PERFIL</h1>
+                    <div class="textperfil"><span>Olá</span>, me chamo</div>
+                    <div class="sectextperfil"><span> Matheus Perillo</span></div>
+                    <div class="studenttext">sou estudante de Engenharia de Software
+                        <br>na Universidade de Brasília - UnB
+                    </div>
+
+                </section>
+                <section class="sobremim">
+                    <h1 class="titletext">SOBRE MIM</h1>
+                    <div class="abouttext">Sou fascinado pelo ramo da tecnologia desde pequeno quando <br> descobri o que um computador era capaz de fazer. <br> Desde então, a paixão aumentou quando conheci o universo da <br> programação <br>Atualmente estou me dedicando às
+                        tecnologias voltadas <br> para o Front-End. </div>
+                </section>
+
+                <section class="formacao" id="formacao">
+                    <h1>FORMAÇÃO</h1>
+                    <div class="containerform">
+                        <div class="colunaform">
+                            <a href="https://fga.unb.br/software" target="_blank">
+                                <img src="imagens/unb.png" class="imgunb">
+                            </a>
+                            <div class="texts">
+                                <h4 class="titlecurso">Engenharia de Software • 2019-2025</h4>
+                                <h5 class="subcurso">Universidade de Brasilia • UnB-FGA </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerescola">
+                        <div class="colunaform2">
+                            <a href="https://www.cbbrasilia.com.br/" target="_blank">
+                                <img src="imagens/LogoBatista2.png" class="imgcbb">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Ensino Médio • 2016-2018</h4>
+                                <h5 class="subescola">Colégio Batista de Brasília</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="textunb">Engenharia de Software • 2019-2025</div>
+                    <div class="textescola">Colégio Batista de Brasília • 2012-2018</div> -->
+                </section>
+
+                <section class="experiencias" id="exp">
+                    <h1>EXPERIÊNCIAS</h1>
+                    <div class="containerform">
+                        <div class="colunaform">
+                            <a class="boximg" href="http://longeletrico.com/index.html" target="_blank">
+                                <img src="imagens/longlogo.png" class="imglong">
+                            </a>
+                            <div class="texts">
+                                <h4 class="titlecurso">Empresa LongElétrico • 2020</h4>
+                                <h5>Freelancer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerescola">
+                        <div class="colunaform2">
+                            <a class="boximg" href="http://brasilialaser.com/" target="_blank">
+                                <img src="imagens/logo.png" class="imglaser">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Empresa Brasília Laser Show • 2020</h4>
+                                <h5>Freelancer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerestagio">
+                        <div class="colunaform2">
+                            <a class="boximg" href="https://www.ministeriodotrabalho.org/ministerio-do-trabalho-brasilia/" target="_blank">
+                                <img src="imagens/SINE.png" class="imgestagio">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Ministério do Trabalho e Emprego • 2018-2019</h4>
+                                <h5 .class="estagio">Sistema Nacional de Emprego (CGSiNE)</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerjunior">
+                        <div class="colunaform2">
+                            <a class="boximg" href="https://www.orcestra.com.br/" target="_blank">
+                                <img src="imagens/orc.png" class="imgorc">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Orc'estra Gamificação</h4>
+                                <h5 .class="cargo">Trainee (atual)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="habil" id="habil">
+                    <h1>HABILIDADES</h1>
+                    <div class="containerform">
+                        <div class="colunaform">
+                            <a class="boximg" href="" target="_blank">
+                                <img src="imagens/html.png" class="imghtml">
+                            </a>
+                            <div class="texts">
+                                <h4 class="titlecurso">HTML 5</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerescola">
+                        <div class="colunaform2">
+                            <a class="boximg" href="" target="_blank">
+                                <img src="imagens/css.png" class="imgcss">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">CSS</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerestagio">
+                        <div class="colunaform2">
+                            <a class="boximg" href="" target="_blank">
+                                <img src="imagens/javalogo.png" class="imgjava">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Java</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerjunior">
+                        <div class="colunaform2">
+                            <a class="boximg" href="" target="_blank">
+                                <img src="imagens/logopacote.png" class="imgpacote">
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Pacote Office</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="habil" id="contato">
+                    <h1>CONTATO</h1>
+                    <div class="containerform">
+                        <div class="colunaform">
+                            <a class="boximg" href="" target="_blank">
+                                <div class="wpp">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                </div>
+                            </a>
+                            <div class="texts">
+                                <h4 class="titlecurso">+55 (61) 985448694</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerescola">
+                        <div class="colunaform2">
+                            <a class="boximg" href="https://www.instagram.com/_matheusperillo/" target="_blank">
+                                <div class="insta">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </div>
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">_matheusperillo</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerestagio">
+                        <div class="colunaform2">
+                            <a class="boximg" href="https://www.facebook.com/matheus.perillo.7/" target="_blank">
+                                <div class="face">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </div>
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">Matheus Perillo</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containerestagio">
+                        <div class="colunaform2">
+                            <a class="boximg" href="https://www.facebook.com/matheus.perillo.7/" target="_blank">
+                                <div class="email">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <div class="texts2">
+                                <h4 class="titleescola">matheus.perillo03@gmail.com</h4>
+                            </div>
+                        </div>
+                    </div>
         </div>
+
+        </section>
+
+        </section>
     </div>
-    
+    </div>
+    <!-- <div class="imgfundo">
+                <img src="imagens/telafundo2.jpg" />
+            </div> -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 
 </html>

@@ -1,0 +1,52 @@
+.firstcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    margin-left: 6rem;
+    /* background-color: #ebf7ff; */
+}
+
+.wpp {
+    font-size: 50px;
+    color: black;
+    -webkit-transition: all 0.3s;
+}
+
+.wpp:hover {
+    color: #34af23;
+    transform: scale(1.1);
+}
+
+.insta {
+    font-size: 50px;
+    color: black;
+    -webkit-transition: all 0.3s;
+}
+
+.insta:hover {
+    color: chocolate;
+    transform: scale(1.1);
+}
+
+.face {
+    font-size: 50px;
+    color: black;
+    -webkit-transition: all 0.3s;
+}
+
+.face:hover {
+    color: #3b5998;
+    transform: scale(1.1);
+}
+
+.email {
+    font-size: 50px;
+    color: black;
+    -webkit-transition: all 0.3s;
+}
+
+.email:hover {
+    color: #f5412e;
+    transform: scale(1.1);
+}
